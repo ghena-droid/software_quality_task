@@ -14,7 +14,8 @@ for record in sales_records:
             
             break
     
-    if is_duplicate == False:
+    if is_duplicate is False:
+
         
         unique_sales.append(record)
 
