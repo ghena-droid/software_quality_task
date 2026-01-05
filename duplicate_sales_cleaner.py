@@ -6,7 +6,7 @@ for record in sales_records:
 
     is_duplicate = False
    
-    for item in unique_sales:
+  for record in sales_records[:]:
         
         if record == item:
             
